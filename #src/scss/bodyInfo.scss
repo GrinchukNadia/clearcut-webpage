@@ -1,0 +1,74 @@
+.body_info{
+    margin: 200px 0 620px;
+    position: relative;
+}
+.tree_bcg{
+    position: absolute;
+    right: 0;
+    bottom: -72px;
+    z-index: 1;
+}
+.left_bcg{
+    .left_bcg-house{
+        position: absolute;
+        left: -26px;
+        bottom: -620px;
+        transform: rotate(2deg);
+        z-index: -1;
+
+    }
+    .left_bcg-smoke{
+        position: absolute;
+        left: 0;
+        bottom: -624px;
+        z-index: -1;
+    }
+}
+.right_bcg{
+    z-index: 0;
+    .right_bcg-clock{
+        position: absolute;
+        right: 0px;
+        bottom: -312px;
+        z-index: -1;
+
+    }
+    .right_bcg-smoke{
+        position: absolute;
+        right: 0;
+        bottom: -586px;
+        z-index: -1;
+    }
+}
+.info_content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 856px;
+}
+h2{
+    font-size: 8.3rem;
+    font-family: "Butler_Regular_Stencil", sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+.info_content-text{
+    margin: 0 auto;
+    max-width: 593px;
+    position: relative;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .letter{
+        font-size: 12rem;
+        font-family: "Butler_Regular_Stencil";
+        position: absolute;
+        opacity: 0.1;
+        left: 2px;
+        top: -27px;
+    }
+}
